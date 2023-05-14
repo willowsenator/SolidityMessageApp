@@ -13,7 +13,7 @@ contract MessagingManager{
     Message[] private messages;
     
 
-    function getAllMessages() external view returns (Message[] memory){
+    function getAllMessages() public view returns (Message[] memory){
         return messages;
     }
 
